@@ -1,0 +1,523 @@
+{
+  "DataSources": {
+    "Rain4Africa.SouthAfrica.Ecmwf.Deterministic.3h": {
+      "Name": "ECMWF DET 5d 0.1\u00b0 3h SA",
+      "Code": "Rain4Africa.SouthAfrica.Ecmwf.Deterministic.3h",
+      "Settings": {
+        "StoreInterval": "Days",
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 3.0
+          }
+        },
+        "Grid": {
+          "GridDefinitionId": 14
+        },
+        "Model": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 12.0
+          },
+          "TimeStepCount": 41,
+          "StartDateOffsetMinutes": -180
+        },
+        "FileFormatId": 3,
+        "SplitByVariable": true,
+        "Compression": true,
+        "DeflateLevel": 5,
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeModels": 1,
+        "ChunkSizeTime": 1,
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 1
+        }
+      },
+      "StartDate": "20160308000000",
+      "EndDate": "20191112000000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "ModelGrid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Ecmwf"
+    },
+    "Rain4Africa.SouthAfrica.Ecmwf.Deterministic.6h": {
+      "Name": "ECMWF DET 10d 0.1\u00b0 6h SA",
+      "Code": "Rain4Africa.SouthAfrica.Ecmwf.Deterministic.6h",
+      "Settings": {
+        "StoreInterval": "Days",
+        "Grid": {
+          "GridDefinitionId": 14
+        },
+        "Model": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 12.0
+          },
+          "TimeStepCount": 41,
+          "StartDateOffsetMinutes": -360
+        },
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 6.0
+          }
+        },
+        "FileFormatId": 3,
+        "SplitByVariable": true,
+        "Compression": true,
+        "DeflateLevel": 5,
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeModels": 1,
+        "ChunkSizeTime": 1,
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 1
+        }
+      },
+      "StartDate": "20160727000000",
+      "EndDate": "20191112000000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "ModelGrid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Ecmwf"
+    },
+    "Rain4Africa.SouthAfrica.UnifiedModel.Deterministic.1.5km": {
+      "Name": "UM DET 1.5d 1.5km 1h SA",
+      "Code": "Rain4Africa.SouthAfrica.UnifiedModel.Deterministic.1.5km",
+      "Settings": {
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeTime": 1,
+        "ChunkSizeModels": 1,
+        "Compression": true,
+        "DeflateLevel": 5,
+        "StoreInterval": "Days",
+        "FileFormatId": 3,
+        "SplitByVariable": true,
+        "SplitByEnsemble": false,
+        "SplitByModelTimeStep": false,
+        "SplitByLocation": false,
+        "SplitByUnit": false,
+        "FileDateOffSetInMinutes": 0,
+        "Grid": {
+          "GridDefinitionId": 26,
+          "Pyramid": {
+            "MaxPixelCount": 80000,
+            "PreferredPixelCount": 80000,
+            "Interpolation": "Average"
+          }
+        },
+        "AccumulationInterval": "Total",
+        "Disclaimer": null,
+        "Model": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 12.0
+          },
+          "TimeStepCount": 37,
+          "StartDateOffsetMinutes": -60
+        },
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 1.0
+          }
+        },
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 2
+        }
+      },
+      "StartDate": "20191110120000",
+      "EndDate": "20191111120000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "ModelGrid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Saws.Unified"
+    },
+    "Rain4Africa.SouthernAfrica.UnifiedModel.Deterministic.4km": {
+      "Name": "UM DET 3d 4km 1h SADC",
+      "Code": "Rain4Africa.SouthernAfrica.UnifiedModel.Deterministic.4km",
+      "Settings": {
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeTime": 1,
+        "ChunkSizeModels": 1,
+        "Compression": true,
+        "DeflateLevel": 5,
+        "StoreInterval": "Days",
+        "FileFormatId": 3,
+        "SplitByVariable": true,
+        "SplitByEnsemble": false,
+        "SplitByModelTimeStep": false,
+        "SplitByLocation": false,
+        "SplitByUnit": false,
+        "FileDateOffSetInMinutes": 0,
+        "Grid": {
+          "GridDefinitionId": 27,
+          "Pyramid": {
+            "MaxPixelCount": 80000,
+            "PreferredPixelCount": 80000,
+            "Interpolation": "Average"
+          }
+        },
+        "AccumulationInterval": "Total",
+        "Disclaimer": null,
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 1.0
+          }
+        },
+        "Model": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 12.0
+          },
+          "TimeStepCount": 73,
+          "StartDateOffsetMinutes": -60
+        },
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 2
+        }
+      },
+      "StartDate": "20191110120000",
+      "EndDate": "20191111120000",
+      "IsEnabled": true,
+      "AutoConnectVariables": true,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "ModelGrid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Saws.Unified"
+    },
+    "Rain4Africa.SouthAfrica.Evapotranspiration.4km": {
+      "Name": "UM DET 3d 4km 1h SADC - Evapotranspiration",
+      "Code": "Rain4Africa.SouthAfrica.Evapotranspiration.4km",
+      "Settings": {
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeTime": 1,
+        "ChunkSizeModels": 1,
+        "Compression": true,
+        "DeflateLevel": 5,
+        "StoreInterval": "Days",
+        "FileFormatId": 3,
+        "SplitByVariable": true,
+        "SplitByEnsemble": false,
+        "SplitByModelTimeStep": false,
+        "SplitByLocation": false,
+        "SplitByUnit": false,
+        "FileDateOffSetInMinutes": 0,
+        "Grid": {
+          "GridDefinitionId": 23,
+          "Pyramid": {
+            "MaxPixelCount": 80000,
+            "PreferredPixelCount": 80000,
+            "Interpolation": "Average"
+          }
+        },
+        "Disclaimer": null,
+        "Model": {
+          "Interval": {
+            "Type": "Days",
+            "Value": 1.0
+          },
+          "TimeStepCount": 71,
+          "StartDateOffsetMinutes": 0
+        },
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 1.0
+          }
+        },
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 2
+        }
+      },
+      "StartDate": "20161012000000",
+      "EndDate": "20191111000000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "ModelGrid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Saws.Unified"
+    },
+    "Saws.Stations": {
+      "Name": "Saws Stations",
+      "Code": "Saws.Stations",
+      "Settings": {
+        "Time": {
+          "Interval": {
+            "Type": "Minutes",
+            "Value": 10.0
+          }
+        },
+        "DataSourceCodes": [
+          "Saws.Stations"
+        ],
+        "MaximumDelay": {
+          "Type": "Years",
+          "Value": 1.0
+        },
+        "OverwriteMode": "NewIsAvailable"
+      },
+      "StartDate": "20171114125000",
+      "EndDate": "20181107090000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "TimeSeries",
+      "DataProviderAssemblyId": 28,
+      "DataSourceGroupCode": "Saws.Timeseries",
+      "DefaultNoDataValue": -777.0
+    },
+    "Tahmo.Stations.Data.Distribution.Hourly": {
+      "Name": "TAHMO stations via data distribution (Hourly)",
+      "Code": "Tahmo.Stations.Data.Distribution.Hourly",
+      "Settings": {
+        "StoreInterval": "Undefined",
+        "FileFormatId": 0,
+        "FixedFileFormat": null,
+        "FixedFolderFormat": null,
+        "SplitByVariable": false,
+        "SplitByEnsemble": false,
+        "SplitByModelTimeStep": false,
+        "SplitByLocation": false,
+        "SplitByUnit": false,
+        "FileDateOffSetInMinutes": 0,
+        "Time": {
+          "Interval": {
+            "Type": "None",
+            "Value": 0
+          }
+        },
+        "AccumulationInterval": "Total",
+        "MaximumDelay": {
+          "Type": "Months",
+          "Value": 1
+        },
+        "Disclaimer": null,
+        "InstanceDataSourceCode": "TAHMO.Hourly",
+        "MaxPeriod": {
+          "Type": "Days",
+          "Value": 5
+        },
+        "RequestIntervalInMilliseconds": 10
+      },
+      "StartDate": "20120628000000",
+      "EndDate": "20191112080710",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "TimeSeries",
+      "DataProviderAssemblyId": 71,
+      "DataSourceGroupCode": "Tahmo.Stations",
+      "DefaultNoDataValue": -999.0
+    },
+    "Gnss.Stations": {
+      "Name": "GNSS Water Vapor Monitoring",
+      "Description": "Configured by MAL",
+      "Code": "Gnss.Stations",
+      "Settings": {
+        "Time": {
+          "Interval": {
+            "Type": "Seconds",
+            "Value": 30.0
+          }
+        },
+        "DataSourceCodes": [
+          "Gnss.Stations"
+        ],
+        "MaximumDelay": {
+          "Type": "Years",
+          "Value": 1.0
+        },
+        "OverwriteMode": "NewIsAvailable"
+      },
+      "StartDate": "20190924235941",
+      "EndDate": "20190925125912",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "TimeSeries",
+      "DataProviderAssemblyId": 28,
+      "DataSourceGroupCode": "Gnss.Stations",
+      "DefaultNoDataValue": -999.0
+    },
+    "Saws.Satellite": {
+      "Name": "SAWS Satellite",
+      "Description": "SAWS Satellite product, primarily used in TWIGA",
+      "Code": "Saws.Satellite",
+      "Settings": {
+        "ChunkSizeX": 10,
+        "ChunkSizeY": 10,
+        "ChunkSizeTime": 1,
+        "Compression": true,
+        "StoreInterval": "Days",
+        "Grid": {
+          "GridDefinitionId": 60
+        },
+        "FileFormatId": 3,
+        "Time": {
+          "Interval": {
+            "Type": "Hours",
+            "Value": 1.0
+          }
+        },
+        "MaximumDelay": {
+          "Type": "Days",
+          "Value": 1.0
+        }
+      },
+      "StartDate": "20190921230000",
+      "EndDate": "20191112060000",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "Grid",
+      "DataProviderAssemblyId": 11,
+      "DataSourceGroupCode": "Saws.Satellite"
+    },
+    "Tahmo.Stations.Data.Distribution.Measurements": {
+      "Name": "TAHMO stations via data distribution (5 minutes)",
+      "Code": "Tahmo.Stations.Data.Distribution.Measurements",
+      "Settings": {
+        "StoreInterval": "Undefined",
+        "FileFormatId": 0,
+        "FixedFileFormat": null,
+        "FixedFolderFormat": null,
+        "SplitByVariable": false,
+        "SplitByEnsemble": false,
+        "SplitByModelTimeStep": false,
+        "SplitByLocation": false,
+        "SplitByUnit": false,
+        "FileDateOffSetInMinutes": 0,
+        "Time": {
+          "Interval": {
+            "Type": "None",
+            "Value": 0
+          }
+        },
+        "AccumulationInterval": "Total",
+        "MaximumDelay": {
+          "Type": "Months",
+          "Value": 1
+        },
+        "Disclaimer": null,
+        "InstanceDataSourceCode": "TAHMO.Measurements",
+        "MaxPeriod": {
+          "Type": "Days",
+          "Value": 5
+        }
+      },
+      "StartDate": "20120628000000",
+      "EndDate": "20191112073710",
+      "IsEnabled": true,
+      "AutoConnectVariables": false,
+      "TimeZoneOffset": "+0000",
+      "PrimaryStructureType": "TimeSeries",
+      "DataProviderAssemblyId": 71,
+      "DataSourceGroupCode": "Tahmo.Stations",
+      "DefaultNoDataValue": -999.0
+    }
+  },
+  "Assemblies": {
+    "11": {
+      "AssemblyId": 11,
+      "AssemblyName": "HydroNET.Server.Stores.NetCDF4",
+      "Name": "HydroNET.NetCDF4 DataProvider",
+      "RootNamespace": null,
+      "AssemblyTypeIds": []
+    },
+    "28": {
+      "AssemblyId": 28,
+      "AssemblyName": "HydroNET.Server.Stores.MySqlTimeSeries",
+      "Name": "HydroNET.MySqlTimeSeries Store",
+      "RootNamespace": null,
+      "AssemblyTypeIds": []
+    },
+    "71": {
+      "AssemblyId": 71,
+      "AssemblyName": "HydroNET.Server.Connectors.HydroNET4.Instance",
+      "Name": "HydroNET.HydroNET4 Instance Connector",
+      "RootNamespace": null,
+      "AssemblyTypeIds": []
+    }
+  },
+  "DataSourceGroups": {
+    "Ecmwf": {
+      "Code": "Ecmwf",
+      "OwnerOrganisationId": 1,
+      "Name": "ECMWF System",
+      "Description": "Data delivered by ECMWF",
+      "ProjectionId": 3,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    },
+    "Saws.Unified": {
+      "Code": "Saws.Unified",
+      "OwnerOrganisationId": 1,
+      "Name": "Unified model delivered by SAWS",
+      "Description": null,
+      "ProjectionId": 3,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    },
+    "Saws.Timeseries": {
+      "Code": "Saws.Timeseries",
+      "OwnerOrganisationId": 1,
+      "Name": "Saws Timeserie database",
+      "Description": "Saws timeserie database first implemented for Saws Stations",
+      "ProjectionId": 3,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    },
+    "Tahmo.Stations": {
+      "Code": "Tahmo.Stations",
+      "OwnerOrganisationId": 0,
+      "Name": "Tahmo API",
+      "Description": null,
+      "ProjectionId": 3,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    },
+    "Gnss.Stations": {
+      "Code": "Gnss.Stations",
+      "OwnerOrganisationId": 0,
+      "Name": "GNSS water vapor monitoring stations (TWIGA)",
+      "Description": null,
+      "ProjectionId": 17,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    },
+    "Saws.Satellite": {
+      "Code": "Saws.Satellite",
+      "OwnerOrganisationId": 1,
+      "Name": "SAWS Satellite product (TWIGA)",
+      "Description": null,
+      "ProjectionId": 3,
+      "Settings": {
+        "LocationsSource": "HydroNet"
+      }
+    }
+  },
+  "TimeZoneOffset": "+0000"
+}
