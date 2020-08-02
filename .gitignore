@@ -2,6 +2,8 @@
 *.zip
 *.rar
 *.csv
+*.yml
+.gitignore
 /env/
 /CodeMaktaba/
 /Omdena/
