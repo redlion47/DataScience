@@ -1,13 +1,13 @@
-.ipynb_checkpoints/
+/.ipynb_checkpoints/
 *.zip
 *.rar
 *.csv
-env/
-CodeMaktaba/
-Omdena/
-Demand_Forecasting_Project/
-HouseDataScrapping/
-Machine-Learning-Class-Sessions/
-NLP_ChatBot-Building/
+/env/
+/CodeMaktaba/
+/Omdena/
+/Demand_Forecasting_Project/
+/HouseDataScrapping/
+/Machine-Learning-Class-Sessions/
+/NLP_ChatBot-Building/
 
 
